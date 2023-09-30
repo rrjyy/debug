@@ -1,5 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
+add_compile_options(-std=c++14)
+
 project(debug_demo)
 
 include_directories(
